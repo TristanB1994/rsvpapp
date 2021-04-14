@@ -12,7 +12,7 @@ services:
     - rsvpnet
 
  web:
-   image: tblandford/rsvpapp:17
+   image: tblandford/rsvpapp
    ports:
     - "5000:5000"
    environment:
